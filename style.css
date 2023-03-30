@@ -1,48 +1,66 @@
+/* Style for the container */
 .container {
-	max-width: 600px;
+	max-width: 500px;
 	margin: 0 auto;
 	padding: 20px;
+	background-color: #f0f0f0;
 	text-align: center;
-}
-
-h1 {
+  }
+  
+  /* Style for the heading */
+  h1 {
 	margin-top: 0;
-}
-
-label {
-	display: inline-block;
-	width: 120px;
-	text-align: left;
+	font-size: 36px;
+  }
+  
+  /* Style for the form */
+  form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  /* Style for the labels */
+  label {
+	display: block;
 	margin-bottom: 10px;
-}
-
-input[type=number] {
-	width: 200px;
-	padding: 5px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	margin-bottom: 10px;
-}
-
-button {
-	background-color: #4CAF50;
-	color: white;
-	padding: 10px 20px;
+	font-size: 18px;
+  }
+  
+  /* Style for the inputs */
+  input {
+	padding: 10px;
+	margin-bottom: 20px;
 	border: none;
 	border-radius: 5px;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	cursor: pointer;
-}
-
-button:hover {
-	background-color: #3e8e41;
-}
-
-input[type=text] {
-	width: 200px;
-	padding: 5px;
-	border: 1px solid #ccc;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	font-size: 18px;
+  }
+  
+  /* Style for the button */
+  button {
+	padding: 10px;
+	background-color: #008CBA;
+	color: #fff;
+	border: none;
 	border-radius: 5px;
-	margin-bottom: 10px;
-}
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	font-size: 18px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+	background-color: #005F6B;
+  }
+  
+  /* Style for the result */
+  #result {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #008CBA;
+	border: none;
+	margin-top: 20px;
+  }
+  
